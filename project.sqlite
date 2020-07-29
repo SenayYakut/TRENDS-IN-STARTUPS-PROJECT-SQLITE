@@ -65,3 +65,134 @@ FROM startups
 GROUP BY location
 HAVING AVG(employees)> 500;
 
+/*
+COUNT(*)
+70
+SUM(valuation)
+974455790000
+MAX(raised)
+1800000
+MIN(founded)
+1994
+AVG(valuation)
+15974685081.9672
+category	ROUND(AVG(valuation),2)
+4290000.0
+Algorithms	7600000.0
+Augmented Reality	8000000000.0
+Big Data Analytics	15000000.0
+Cloud Computing	95000000.0
+Customer Service	640000000.0
+Data Analytics	
+E-commerce	60250000.0
+Education	2023800000.0
+Enterprise	38508333333.33
+Fashion	3200000.0
+Fitness	67500000.0
+Gambling	322000000.0
+Games	1600000.0
+Health Care	380490000000.0
+Logistics	70000000.0
+Mobile	9600000.0
+Nanotechnology	150000000.0
+Real Estate	20000000000.0
+SaaS	401000000.0
+Security	6333333333.33
+Social	82425833.33
+Technology	3100000000.0
+Travel	12501250000.0
+Venture Capital	3000000000.0
+Video Streaming	
+Virtual Reality	2150000.0
+category	ROUND(AVG(valuation),2)
+Health Care	380490000000.0
+Enterprise	38508333333.33
+Real Estate	20000000000.0
+Travel	12501250000.0
+Augmented Reality	8000000000.0
+Security	6333333333.33
+Technology	3100000000.0
+Venture Capital	3000000000.0
+Education	2023800000.0
+Customer Service	640000000.0
+SaaS	401000000.0
+Gambling	322000000.0
+Nanotechnology	150000000.0
+Cloud Computing	95000000.0
+Social	82425833.33
+Logistics	70000000.0
+Fitness	67500000.0
+E-commerce	60250000.0
+Big Data Analytics	15000000.0
+Mobile	9600000.0
+Algorithms	7600000.0
+4290000.0
+Fashion	3200000.0
+Virtual Reality	2150000.0
+Games	1600000.0
+Data Analytics	
+Video Streaming	
+category	COUNT(*)
+3
+Algorithms	1
+Augmented Reality	1
+Big Data Analytics	1
+Cloud Computing	2
+Customer Service	1
+Data Analytics	1
+E-commerce	3
+Education	5
+Enterprise	3
+Fashion	2
+Fitness	3
+Gambling	1
+Games	2
+Health Care	2
+Logistics	1
+Mobile	10
+Nanotechnology	1
+Real Estate	1
+SaaS	2
+Security	3
+Social	12
+Technology	3
+Travel	2
+Venture Capital	1
+Video Streaming	1
+Virtual Reality	2
+category	COUNT(*)
+Social	12
+Mobile	10
+Education	5
+location	AVG(employees)
+Atlanta	3.0
+Boulder	3.0
+Brooklyn	502.666666666667
+Chicago	12.0
+Columbus	2.0
+Denver	12.0
+Fort Lauderdale	500.0
+Irvine	2.0
+Long Island	5.0
+Los Angeles	6.83333333333333
+Minneapolis	20.0
+New Delhi	250.0
+New York	702.75
+Omaha	65.0
+Palo Alto	125.833333333333
+Paris	30.0
+San Francisco	1920.4
+Savannah	6.0
+Scranton	6.0
+Seattle	9.66666666666667
+Silicon Valley	1804.6
+Virginia Beach	15.0
+Washington DC	8.0
+location	AVG(employees)
+Brooklyn	502.666666666667
+New York	702.75
+San Francisco	1920.4
+Silicon Valley	1804.6
+
+*/
+
